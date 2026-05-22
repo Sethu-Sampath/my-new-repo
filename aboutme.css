@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-blend-mode: overlay;
+    background-image: url('bg.body.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1 {
+    color: #333;
+    text-align: center;
+    font-family: 'Georgia', serif;
+}
+img {
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    display: block;
+    margin: 20px auto;
+}
+.about{
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-left: 100px;
+    margin-right: 100px;
+    transition: transform 0.5s ease-out;
+}
+.about:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+.skills {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-left: 100px;
+    margin-right: 100px;
+    transition: transform 0.5s ease-out;
+}
+.skills:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+.hobbies{
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 18px;
+    transition: transform 0.5s ease-out;
+}
+.hobbies:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+.contact {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    transition: transform 0.5s ease-out;
+}
+.contact:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in;
+}
+    a {
+    color: #007BFF;
+    text-decoration: none;
+}
+    a:hover {
+    text-decoration: underline;
+}
