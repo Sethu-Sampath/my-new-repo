@@ -1,10 +1,28 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    padding: 20px;
     background-blend-mode: overlay;
     background-image: url('bg.body.jpg');
     background-size: cover;
     background-attachment: fixed;
+}
+nav{
+    background-color: rgba(255, 255, 255);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    width: 90%;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+#nav{
+    color: #333;
 }
 h1 {
     color: #333;
